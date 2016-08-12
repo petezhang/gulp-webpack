@@ -48,7 +48,7 @@ gulp.task('clean', function() {
 gulp.task('webpack', function(callback) {
 	var myConfig = Object.create(webpackConfig);
 	webpack(myConfig, function(err, stats) {
-		console.log(myConfig.entry)
+		// console.log(myConfig.entry)
 		callback()
 	})
 })
